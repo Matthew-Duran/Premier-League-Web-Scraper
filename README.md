@@ -1,4 +1,4 @@
-⚽ Premier League Data Scraper
+<h1 align="center">⚽ Premier League Data Scraper</h1>
 
 📖 Overview
 
