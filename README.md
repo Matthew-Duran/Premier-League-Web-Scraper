@@ -5,6 +5,8 @@
 This project scrapes Premier League team statistics directly from FBref
  and consolidates them into a single, clean CSV dataset. It bypasses Cloudflare protection using Cloudscraper and leverages BeautifulSoup + Pandas to transform raw HTML tables into analysis-ready data.
 
+
+
 Key highlights:
 
 🔍 Web scraping at scale – works on real-world sites with Cloudflare
@@ -15,6 +17,8 @@ Key highlights:
 
 ⚡ Automation & reproducibility – ready for CI/CD integration
 
+
+
 💻 Tech Stack
 
 Languages:
@@ -22,6 +26,8 @@ Languages:
 
 Developer Tools:
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+
 
 🚀 Features
 
@@ -35,10 +41,11 @@ Resilient scraping with request throttling to avoid blocks
 
 Flexible, modular code for future extensions (e.g., match stats, player stats)
 
+
+
 📂 Output Example
 
 Prem_Stats.csv (sample structure):
 
 Player	Nation	Pos	Age	Min	Gls	Ast	Team
 J. Doe	ENG	FW	25	1800	10	5	Arsenal
-
