@@ -1,13 +1,13 @@
 <h1 align="center">⚽ Premier League Data Scraper</h1>
 
-📖 Overview
+## 📖 Overview
 
 This project scrapes Premier League team statistics directly from FBref
  and consolidates them into a single, clean CSV dataset. It bypasses Cloudflare protection using Cloudscraper and leverages BeautifulSoup + Pandas to transform raw HTML tables into analysis-ready data.
 
 
 
-Key highlights:
+## Key highlights:
 
 🔍 Web scraping at scale – works on real-world sites with Cloudflare
 
@@ -19,7 +19,7 @@ Key highlights:
 
 
 
-💻 Tech Stack
+## 💻 Tech Stack
 
 Languages:
 ![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white) 
@@ -29,7 +29,7 @@ Developer Tools:
 
 
 
-🚀 Features
+## 🚀 Features
 
 Scrapes every Premier League squad page automatically
 
@@ -43,7 +43,7 @@ Flexible, modular code for future extensions (e.g., match stats, player stats)
 
 
 
-📂 Output Example
+## 📂 Output Example
 
 Prem_Stats.csv (sample structure):
 
