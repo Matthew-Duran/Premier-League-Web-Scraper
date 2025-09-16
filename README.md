@@ -32,5 +32,7 @@ Developer Tools:
 
 Prem_Stats.csv (sample structure):
 
-Player	Nation	Pos	Age	Min	Gls	Ast	Team
-J. Doe	ENG	FW	25	1800	10	5	Arsenal
+| Player  | Nation | Pos | Age | Min  | Gls | Ast | Team    |
+|---------|--------|-----|-----|------|-----|-----|---------|
+| J. Doe  | ENG    | FW  | 25  | 1800 | 10  | 5   | Arsenal |
+
