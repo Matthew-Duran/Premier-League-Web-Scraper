@@ -68,6 +68,6 @@ for team_url in team_urls:
 if all_teams:
     stat_df = pd.concat(all_teams, ignore_index=True)
     stat_df.to_csv("Prem_Stats.csv", index=False)
-    print("Scraping complete! CSV saved as Prem_Stats.csv")
+    print("Scraping complete! CSV saved as stats.csv")
 else:
     print("No data collected. Exiting.")
