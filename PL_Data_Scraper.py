@@ -67,7 +67,12 @@ for team_url in team_urls:
 #Collect all teams
 if all_teams:
     stat_df = pd.concat(all_teams, ignore_index=True)
+
+    if "Age" in stat_df.columns:
+        stat_df["Age"] = stat_df["Age"].astype(str).str.extract(r"(\d+)")[0]  # Keep only first integer part
+        stat_df["Age"] = pd.to_numeric(stat_df["Age"], errors="coerce")       # Convert to integer
+
     stat_df.to_csv("Prem_Stats.csv", index=False)
-    print("Scraping complete! CSV saved as stats.csv")
+    print("Scraping complete! CSV saved as Prem_Stats.csv")
 else:
     print("No data collected. Exiting.")
